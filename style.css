@@ -1,0 +1,43 @@
+#img-logo
+{
+    width: 100px;
+}
+#lbl-1
+{
+    font-size: 29px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 9px;
+    color: black;
+    border-radius: 90px;
+    font-style: italic;
+    border-color: silver;
+    border-width: 6px;
+    box-shadow: 5px 5px red, 10px 10px blue, 15px 15px green;
+}
+body
+{
+  color: white;
+  background: #c0d3ff;
+}
+.div1,#img-captured
+{
+   border: 2px dashed black;
+   width: 350px; 
+   height: 300px; 
+}
+#result-1
+{
+  font-size: 35px;
+  color:black;
+}
+.footer
+{
+  width: 500px;
+  background-color: darkblue;
+}
+.footer span
+{
+  display:inline;
+  
+  padding-left: 40px;
+}

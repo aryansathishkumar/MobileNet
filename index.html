@@ -1,0 +1,79 @@
+
+<html>
+  <head>
+    <title>MobileNet</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <center>
+     <div id="header">
+       <label id="lbl-1">
+         Image Identification app <img src="logo.gif" id="img-logo"/>
+       </label>
+     </div>
+     <div class="col-md-4 col-sm-12 col-xs-12 col-lg-6">
+      <label id="lbl1" class="btn btn-default">Webcam View</label>
+
+      <br><br>
+      <div class="div" id="camera-display">
+
+      </div>
+      <button onclick="snapit()" class="btn btn-danger">Capture</button>
+
+    </div>
+
+   <div class="col-md-4 col-sm-12 col-xs-12 col-lg-6">
+   <label id="lbl1" class="btn btn-default">Snapshot</label>
+   <br>
+   <br>
+   <div id="img-captured" class="div2">
+
+   </div>
+   <br>
+   <button class="btn btn-primary" onclick="predict()">Predict it</button>
+   </div>
+   <br>
+   <br>
+   <br>
+   <label id="lbl-2" class="btn btn-default" style="width:500px">OutPut</label>
+   <br>
+   <br>
+   <div class="footer">
+
+     
+      <img src="blub.gif" width="125" height="80">
+      <span id="result-1">
+    </span> 
+   </div>
+   <br>
+   <br>
+   <button id="swap-camera" style="color:black" onclick="swap()" ondblclick="swap2()">Swap the camera 🔂</button>
+   <h3 style="color: red;"><b>Note: Click on the swap button to change the camera's mode to self-view or doboule click on it to change the front-view</b></h3>
+    
+  </center>
+
+    
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+
